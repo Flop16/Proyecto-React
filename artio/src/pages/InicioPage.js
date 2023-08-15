@@ -13,10 +13,8 @@ export default class InicioPage extends React.Component {
                 </div>
 
                 <div className="contenedor-fluid d-flex justify-content-center my-5">
-                    <img src="/img/9.png" alt="img9" max-width={300} height={300} className="mx-3" />
-                    <img src="/img/11.png" alt="img11" max-width={300} height={300} className="mx-3" />
-                    <img src="/img/14.png" alt="img14" max-width={300} height={300} className="mx-3" />
-                    <img src="/img/17.png" alt="img17" max-width={300} height={300} className="mx-3" />
+                    <img src="/img/001.png" alt="img001" />
+
                 </div>
 
                 <div className="contenedor-fluid mt-4"> 
