@@ -46,7 +46,7 @@ class ApiClima extends Component {
             });
         } catch (error) {
             this.setState({
-                error: 'Error de escritura de la ciudad o país, probá con las mayúsculas iniciales e intentá de nuevo.'
+                error: 'Error de escritura de la ciudad o país, prueba con las mayúsculas iniciales e intenta de nuevo.'
             });
         }
     }
@@ -60,7 +60,7 @@ class ApiClima extends Component {
                             getWeather={this.getWeather}
                         />
                         <WeatherInfo {...this.state} />
-                        {this.state.error && <p className="error-message">{this.state.error}</p>}
+                        
                     </div>
                 </div>
             </div>
