@@ -1,20 +1,26 @@
-.img-fluid {
-    max-width: 300px;
+.nav-link {
+    background-color: #FAE0E2;
+    color:#000000;
+    margin-right: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    align-self: center;
+}
+.nav-link:hover {
+    background-color: #C98F77;
+    color: white;
 }
 
 .btn {
     background-color: #FAE0E2;
     color:#000000;
+    border: 3px solid #FAE0E2;
+
 }
 
+@media screen and (max-width: 720px) {
+    img {
+        width: 250px;
+    }
 
-@media screen and (max-width: 700px) {
-    .img-fluid {
-        width: 200px;
-    }
-    .btn {
-        flex-wrap: wrap;
-        width: 100%;
-        margin: 0;
-    }
 }
