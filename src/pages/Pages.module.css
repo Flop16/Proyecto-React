@@ -1,6 +1,6 @@
 h2 {
     color: #C98F77;
-    margin: 4rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
     font-family: Hatton;
 }
 
@@ -18,7 +18,19 @@ h4 {
 
 p {
     font-family: 'Stellar', sans-serif;
-    font-size: large;
+    font-size: 18px;
     text-align: justify;
+    max-width: 100%;
 
+}
+@media screen and (max-width: 719px) {
+    img {
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1980px) {
+    img {
+        max-width: 100%; 
+    }
 }
